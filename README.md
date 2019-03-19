@@ -98,3 +98,9 @@ in the workspace for the odd case where I want to change something in a module t
 beef with VS Code regarding `node_modules` is that it will expand whatever path to a typings file when I do Ctrl+click
 to go to a TypeScript definition. So I always have `node_modules` expanded which makes the Explorer pane useless. I have
 no option but to hide it then. I wish there was a different setting, something like `expand.exclude`.
+
+`"html.format.wrapLineLength": 0`
+
+This prevents Code from wrapping HTML lines that are too long by breaking them up and wrapping the attributes.
+I find the results almost always ugly and they usually are caused by long `a` elements with long links in `href` which is something
+I am perfectly comfortable with not getting wrapped.
