@@ -2,9 +2,7 @@
 
 These are my settings for VS Code.
 
-[Bookmarklet](javascript:prompt('settings.json', '{\n' + [...document.querySelectorAll('code, pre')].filter(codeOrPre => codeOrPre.previousSibling === null).reduce((json, codeOrPre) => json + codeOrPre.textContent.split('\n').map(line => '  ' + line).join('\n') + ',\n', '') + '}\n'))
-
-Click the above link to get the full JSON.
+Place `'{\n' + [...document.querySelectorAll('code, pre')].filter(codeOrPre => codeOrPre.previousSibling === null).reduce((json, codeOrPre) => json + codeOrPre.textContent.split('\n').map(line => '  ' + line).join('\n') + ',\n', '') + '}\n'` to this page's developer tools console to get the full JSON.
 
 I am using the default Windows shell - PowerShell.
 
