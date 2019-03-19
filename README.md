@@ -82,6 +82,9 @@ Restoring the last window is actually quite handy 99 % of the time, but when it'
 time loading extensions and services before it becomes responsive enough for me to close the existing workspace and get to
 the start page. And I also just don't like the feeling of starting with a dirty workspace anyway. So no restoration for me.
 
+This will still open two windows when there was an unsaved file in a window that got closed. I haven't looked into how to
+prevent that.
+
 ```json
 "files.exclude": {
   "**/.git": true,
