@@ -4,7 +4,9 @@ These are my settings for VS Code.
 
 Place `'{\n' + [...document.querySelectorAll('code, pre')].filter(codeOrPre => codeOrPre.previousSibling === null).reduce((json, codeOrPre) => json + codeOrPre.textContent.split('\n').map(line => '  ' + line).join('\n') + ',\n', '') + '}\n'` to this page's developer tools console to get the full JSON.
 
-I am using the default Windows shell - PowerShell.
+`"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe"`
+
+I am using PowerShell Core as my integrated terminal shell.
 
 `"terminal.integrated.rendererType": "dom"`
 
