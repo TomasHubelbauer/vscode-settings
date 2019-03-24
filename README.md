@@ -110,7 +110,7 @@ Goes without saying.
   "**/.hg": true,
   "**/CVS": true,
   "**/.DS_Store": true,
-  "node_modules": true
+  "**/node_modules": true
 }
 ```
 
