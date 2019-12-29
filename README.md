@@ -4,6 +4,10 @@ These are my settings for VS Code.
 
 Place `'{\n' + [...document.querySelectorAll('code, pre')].filter(codeOrPre => codeOrPre.previousSibling === null).reduce((json, codeOrPre) => json + codeOrPre.textContent.split('\n').map(line => '  ' + line).join('\n') + ',\n', '') + '}\n'` to this page's developer tools console to get the full JSON.
 
+## To-Do
+
+### Create a GitHub Pages site which fetches the readme and makes the JSON
+
 ## Terminal
 
 `"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe"`
